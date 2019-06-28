@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Telex&display=swap');
+
+body {
+    background-color: rosybrown;
+    color: #ffffff;
+    /*make sure you set family and size on body*/
+    font-family: 'Telex', sans-serif;
+    font-size;
+    10px
+}
+
+/* Typograohy*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 20px;
+    /*      display: inline-block;*/
+    font-size: 150px;
+
+
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: aquamarine;
+}
+
+h3 {
+    font-size: 22px
+}
+
+p {
+    font-size: 10px;
+    line-height: 23px;
+    margin-bottom: 20px
+}
+
+/* anchor styles */
+/* these are for links you havent created yet */
+a {
+    color: #ffffff;
+    background-color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #cccccc;
+    /* this is to hover and make words grey */
+}
+
+a:active {
+    color: red;
+}
+
+/* main containers*/
+
+.wrapper {
+    width: 1680px;
+    /* TOP RIGHT BOTTOM LEFT*/
+    margin: 0px auto 0px auto;
+
+}
+
+header {
+    height: 0px;
+
+}
+
+nav {}
+
+nav ul {}
+
+nav ul li {
+    display: inline;
+    margin-right: 400px;
+
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 1000px;
+    background-image: url(../images/churchill-house-4-edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main {}
+
+footer {
+    background-color: aliceblue;
+
+    background-size: cover;
+
+
+}
+
+.lefting {
+    width: 65%;
+    float: right;
+    border: 1px solid grey;
+    padding 30px;
+    background-color: white;
+    margin: 20px 0;
+}
