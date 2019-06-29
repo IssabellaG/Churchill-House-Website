@@ -22,17 +22,22 @@ h6 {
 }
 
 h1 {
+    position: sticky;
+
+}
+
+h2 {
     text-align: center;
-    padding-top: 350px;
+    padding-top: 300px;
     padding-bottom: 20px;
-    /*      display: inline-block;*/
-    font-size: 150px;
+    font-size: 200px;
+    letter-spacing: 10px;
 
 
 
 }
 
-h2 {
+h3 {
     font-size: 25px;
     font-weight: bold;
     border-bottom: 1px solid white;
@@ -42,7 +47,7 @@ h2 {
     background-color: aquamarine;
 }
 
-h3 {
+h4 {
     font-size: 22px
 }
 
@@ -76,15 +81,16 @@ a:active {
 /* main containers*/
 
 .wrapper {
-    width: 1680px;
+    width: 2000px;
     /* TOP RIGHT BOTTOM LEFT*/
     margin: 0px auto 0px auto;
 
 }
 
 header {
-    height: 0px;
-
+    height: 2000px;
+    background-image: url(../images/churchill-house-4-edited.png);
+    background-size: cover;
 }
 
 nav {}
@@ -112,17 +118,20 @@ nav ul li a:hover {
 
 .hero {
     min-height: 1000px;
-    background-image: url(../images/churchill-house-4-edited.png);
-    background-repeat: no-repeat;
+
     background-size: cover;
 
 }
 
-main {}
+main {
+    background-color: beige;
+
+}
 
 footer {
-    background-color: aliceblue;
 
+    background-color: dimgrey;
+    padding: 70px;
     background-size: cover;
 
 
@@ -134,5 +143,5 @@ footer {
     border: 1px solid grey;
     padding 30px;
     background-color: white;
-    margin: 20px 0;
+    margin: 0px 0;
 }
