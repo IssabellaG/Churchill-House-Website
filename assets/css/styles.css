@@ -28,7 +28,6 @@ h6 {
 
 h1 {
     position: fixed;
-
 }
 
 h2 {
@@ -54,9 +53,6 @@ h3 {
 
 }
 
-h4 {
-    font-size: 22px
-}
 
 p {
     font-size: 10px;
@@ -83,16 +79,15 @@ a:visited {
 }
 
 a:active {
-    color: red;
+    color:
 }
 
 /* main containers*/
 
 .wrapper {
     width: 3000px;
-    TOP RIGHT BOTTOM LEFT margin: 0 auto;
+    Top: 1000px;
 }
-
 
 
 header {
@@ -103,7 +98,10 @@ header {
 
 nav {}
 
-nav ul {}
+nav ul {
+    padding-top: 700px;
+
+}
 
 nav ul li {
     display: inline;
