@@ -8,10 +8,9 @@ body {
     font-size: 10px;
 }
 
-/*
 .wrapper {
     width: 980px;
-*/
+    margin-left: 400px;
 }
 
 
@@ -35,10 +34,11 @@ h1 {
 
 h2 {
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 20px;
     font-size: 200px;
+    padding top: 350px;
     letter-spacing: 10px;
+    background-color: none;
+
 
 
 
@@ -67,13 +67,13 @@ p {
 /* anchor styles */
 /* these are for links you havent created yet */
 a {
-    color: #ffffff;
-    background-color: black;
+    color: grey;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+
+    color: white;
 }
 
 a:visited {
@@ -89,11 +89,10 @@ a:active {
 
 .wrapper {
     width: 2000px;
-    /* TOP RIGHT BOTTOM LEFT*/
-    margin: 0 auto;
-
-
+    TOP RIGHT BOTTOM LEFT margin: 0 auto;
 }
+
+
 
 header {
     height: 2000px;
@@ -113,7 +112,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: red;
+    color: grey;
     text-decoration: none;
     padding: 10px 15px;
     text-transform: uppercase;
@@ -121,13 +120,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: aqua;
     text-decoration: none;
+    color: white;
 }
 
 .hero {
     min-height: 1000px;
-
     background-size: cover;
 
 }
