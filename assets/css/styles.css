@@ -90,10 +90,10 @@ a:active {
 }
 
 
-header {
-    height: 2000px;
-    background-image: url(../images/churchill-house-4-edited.png);
-    background-size: cover;
+/*header {*/
+/*    height: 2000px;*/
+/*    background-image: url(../images/churchill-house-4-edited.png);*/
+/*    background-size: cover;*/
 }
 
 nav {}
