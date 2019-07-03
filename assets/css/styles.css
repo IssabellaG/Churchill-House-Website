@@ -32,12 +32,15 @@ h1 {
 
 h2 {
     text-align: center;
-    position: inherit;
+    /*    position: fixed;*/
     font-size: 280px;
-    padding top: 350px;
     letter-spacing: 10px;
-    background-color: none;
+    background-image: url(../images/churchill-house-4-edited.png);
+    background-size: cover;
+    height: 2000px;
+    width: 3450px;
 
+}
 
 
 }
@@ -74,7 +77,7 @@ a:hover {
 }
 
 a:visited {
-    color: #cccccc;
+
     /* this is to hover and make words grey */
 }
 
@@ -84,24 +87,21 @@ a:active {
 
 /* main containers*/
 
-.wrapper {
-    width: 3000px;
-    Top: 1000px;
+/*.wrapper {*/
+/*    width: 3000px;*/
+/*    Top: 1000px;*/
 }
 
 
 /*header {*/
-/*    height: 2000px;*/
+/*    height: 800px;*/
+/*    width: 1000px;*/
 /*    background-image: url(../images/churchill-house-4-edited.png);*/
-/*    background-size: cover;*/
-}
+/*    background-size: cover;}*/
 
 nav {}
 
-nav ul {
-    padding-top: 700px;
-
-}
+nav ul {}
 
 nav ul li {
     display: inline;
@@ -141,11 +141,13 @@ footer {
 
 }
 
-.lefting {
-    width: 65%;
-    float: right;
+/*.lefting {*/
+/*    width: 65%;*/
+/*    float: right;*/
+/*
     border: 1px solid grey;
     padding 30px;
     background-color: white;
     margin: 0px 0;
 }
+*/
