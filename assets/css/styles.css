@@ -43,6 +43,7 @@ h2 {
     padding-left: 100px;
     padding-right: 100px;
 
+
 }
 
 
@@ -78,7 +79,7 @@ a {
 a:hover {
 
     color: white;
-    margin
+
 }
 
 a:visited {
@@ -100,7 +101,7 @@ header {
 
     background-image: url(../images/churchill-house-4-edited.png);
     background-size: cover;
-    /*    height: 2000px;*/
+    height: 2000px;
 
 }
 
@@ -111,10 +112,6 @@ nav ul {}
 nav ul li {
     display: inline;
     margin-left: 900px;
-
-
-
-
 
 }
 
