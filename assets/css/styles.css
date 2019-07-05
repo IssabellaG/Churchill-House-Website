@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Typograohy*/
+/* Typography*/
 
 h1,
 h2,
@@ -28,6 +28,7 @@ h6 {
 
 h1 {
     position: fixed;
+    margin-top: none;
 }
 
 h2 {
@@ -35,10 +36,12 @@ h2 {
     /*    position: fixed;*/
     font-size: 280px;
     letter-spacing: 10px;
-    background-image: url(../images/churchill-house-4-edited.png);
+    /*    background-image: url(../images/churchill-house-4-edited.png);*/
     background-size: cover;
-    height: 2000px;
-    width: 3450px;
+    padding-top: 700px;
+    padding-bottom: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
@@ -69,11 +72,13 @@ a {
     color: grey;
     text-decoration: none;
 
+
 }
 
 a:hover {
 
     color: white;
+    margin
 }
 
 a:visited {
@@ -85,19 +90,19 @@ a:active {
     color:
 }
 
-/* main containers*/
-
-/*.wrapper {*/
-/*    width: 3000px;*/
-/*    Top: 1000px;*/
+main containers .wrapper {
+    width: 3000px;
+    Top: 1000px;
 }
 
 
-/*header {*/
-/*    height: 800px;*/
-/*    width: 1000px;*/
-/*    background-image: url(../images/churchill-house-4-edited.png);*/
-/*    background-size: cover;}*/
+header {
+
+    background-image: url(../images/churchill-house-4-edited.png);
+    background-size: cover;
+    /*    height: 2000px;*/
+
+}
 
 nav {}
 
@@ -105,7 +110,11 @@ nav ul {}
 
 nav ul li {
     display: inline;
-    margin-left: 1000px;
+    margin-left: 900px;
+
+
+
+
 
 }
 
@@ -115,6 +124,11 @@ nav ul li a {
     padding: 10px 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+
+
+
 }
 
 nav ul li a:hover {
