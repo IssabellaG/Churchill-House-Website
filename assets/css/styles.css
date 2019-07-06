@@ -9,8 +9,8 @@ body {
 }
 
 .wrapper {
-    width: 3000px;
-    margin-left: 180px;
+    /*    width: 3000px;*/
+
 }
 
 
@@ -38,7 +38,7 @@ h2 {
     letter-spacing: 10px;
     /*    background-image: url(../images/churchill-house-4-edited.png);*/
     background-size: cover;
-    padding-top: 700px;
+    padding-top: 580px;
     padding-bottom: 800px;
     padding-left: 100px;
     padding-right: 100px;
@@ -107,11 +107,16 @@ header {
 
 nav {}
 
-nav ul {}
+nav ul {
+    list-style: none;
+    padding-top: 100px;
+    margin-left: 800px;
+}
 
 nav ul li {
     display: inline;
-    margin-left: 900px;
+    margin-left: 600px;
+
 
 }
 
@@ -126,6 +131,7 @@ nav ul li a {
 
 
 
+
 }
 
 nav ul li a:hover {
@@ -134,12 +140,15 @@ nav ul li a:hover {
 }
 
 .hero {
-    min-height: 1000px;
+    min-height: 3000px;
     background-size: cover;
 
 }
 
-main {}
+main {
+    min-height: 3000px;
+
+}
 
 footer {
 
@@ -148,6 +157,7 @@ footer {
     background-size: cover;
     min-height: 300px;
     height: 200px;
+    width: 3220px;
 
 
 }
