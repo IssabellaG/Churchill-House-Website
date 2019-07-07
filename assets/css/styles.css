@@ -10,6 +10,7 @@ body {
 
 .wrapper {
     width: 3000px;
+    height: 1000px;
 
 }
 
@@ -42,7 +43,7 @@ h2 {
     padding-bottom: 800px;
     padding-left: 100px;
     padding-right: 100px;
-    width: 3200px;
+    width: 3100px;
 
 
 }
@@ -54,8 +55,8 @@ h3 {
     font-size: 25px;
     font-weight: bold;
     border-bottom: 1px solid white;
-    padding-bottom: 10px;
-    padding top: 10px;
+    padding-bottom: 100px;
+    padding top: 100px;
     letter-spacing: 1px;
     color: #000000;
 
@@ -63,9 +64,11 @@ h3 {
 
 
 p {
-    font-size: 10px;
-    line-height: 23px;
-    margin-bottom: 20px
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 /* anchor styles */
@@ -109,7 +112,7 @@ header {
 }
 
 nav {
-    /*    width: 3000px;*/
+    width: 3000px;
 
 }
 
@@ -145,16 +148,17 @@ nav ul li a:hover {
 
 
 .hero {
-    min-height: 3000px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-size: cover;
 
 }
 
 main {
-    min-height: 3000px;
-    width: 2800px;
-    margin-left: 300px;
-    margin-right: 300px;
+    min-height: 800px;
+    width: 2600px;
+    margin-left: 400px;
+    margin-right: 400px;
 
 }
 
@@ -166,17 +170,18 @@ footer {
     min-height: 300px;
     height: 200px;
     width: 3220px;
+    font-size: 30px;
+    margin-top: 100%;
 
 
 }
 
-/*
 .lefting {
-    width: 65%;
+    width: 800px;
+    height: 1000px;
     float: right;
     border: 1px solid grey;
-    padding 30px;
-    background-color: white;
-    margin: 0px 0;
-*/
+    /*    padding 30px;*/
+    /*    background-color: none;*/
+    margin-right: 200px;
 }
