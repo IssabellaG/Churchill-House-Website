@@ -170,6 +170,8 @@ nav ul li a:hover {
 }
 
 main {
+
+
     /*    BEN: shouldn't need to set a height on the content*/
     /*    min-height: 800px;*/
     /*    width: 2600px;*/
@@ -181,9 +183,30 @@ main {
 
 section {}
 
-article {}
 
 
+.timeline {
+    float: right;
+}
+
+.timeline h3 {
+    float: right;
+}
+
+.timeline h4 {
+    float: right;
+}
+
+
+.timeline p {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.timeline img {
+    float: right;
+}
 
 /*BEN: code for columns on home page*/
 /*this holds the 2 columns and adds a little space at the bottom*/
@@ -222,45 +245,61 @@ article {}
 
 }
 
-.ltimeline {
-    float: left;
-}
+/*.ltimeline {*/
+/*    float: left;*/
+/*}*/
 
+/*
 .ltimeline img {
     float: left;
     margin-top: 200px;
 }
+*/
 
+/*
 .ltimeline p {
     float: left;
 }
+*/
 
+/*
 .ltimeline h4 {
     float: left;
-    /*    not in use yet*/
+        not in use yet
 }
+*/
 
+/*
 .rtimeline {
     float: right;
 }
+*/
 
+/*
 .rtimeline h3 {
     float: right;
 }
+*/
 
+/*
 .rtimeline h4 {
     float: right;
 }
+*/
 
+/*
 .rtimeline img {
     float: right;
-    /*    not in use yet*/
+        not in use yet
 
 }
+*/
 
+/*
 .rtimeline p {
     float: right;
 }
+*/
 
 /*heading style within the box*/
 .column h3 {
