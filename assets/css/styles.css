@@ -181,6 +181,8 @@ main {
 
 section {}
 
+article {}
+
 
 
 /*BEN: code for columns on home page*/
@@ -218,6 +220,46 @@ section {}
     background-size: cover;
     height: 1000px;
 
+}
+
+.ltimeline {
+    float: left;
+}
+
+.ltimeline img {
+    float: left;
+    margin-top: 200px;
+}
+
+.ltimeline p {
+    float: left;
+}
+
+.ltimeline h4 {
+    float: left;
+    /*    not in use yet*/
+}
+
+.rtimeline {
+    float: right;
+}
+
+.rtimeline h3 {
+    float: right;
+}
+
+.rtimeline h4 {
+    float: right;
+}
+
+.rtimeline img {
+    float: right;
+    /*    not in use yet*/
+
+}
+
+.rtimeline p {
+    float: right;
 }
 
 /*heading style within the box*/
