@@ -9,14 +9,17 @@ body {
 }
 
 .wrapper {
-    width: 3000px;
-    height: 500px;
-
+    /*    BEN: if you were to set the width here you'd want it to be relatively small i.e. less than 1000px. */
+    /*    width: 3000px;*/
+    width: 70%;
+    /*    BEN: never set the height of a wrapper - it will grow with the content*/
+    /*    height: 500px;*/
+    /*    These 2 lines center the wrapper in the middle: */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
 /* Typography*/
-
 h1,
 h2,
 h3,
@@ -28,29 +31,19 @@ h6 {
 }
 
 h1 {
-    position: fixed;
-    margin-top: none;
-}
-
-h2 {
-    text-align: center;
+    /*    BEN: rather than fixing the logo, do it on the header element instead*/
     /*    position: fixed;*/
-    font-size: 280px;
-    letter-spacing: 10px;
-    /*    background-image: url(../images/churchill-house-4-edited.png);*/
-    background-size: cover;
-    padding-top: 580px;
-    padding-bottom: 800px;
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 3100px;
-
-
+    margin-top: 0;
+    display: inline;
+    float: left;
 }
 
-
+/*set the size of the logo image */
+h1 img {
+    max-width: 200px;
 }
 
+/*BEN: h2 was here, I've moved it down to the hero area*/
 h3 {
     font-size: 50px;
     font-weight: bold;
@@ -59,7 +52,6 @@ h3 {
     padding top: 100px;
     letter-spacing: 1px;
     color: #000000;
-
 }
 
 h4 {
@@ -67,7 +59,8 @@ h4 {
 }
 
 p {
-    font-size: 50px;
+    font-size: 3.5em;
+    line-height: 1.2em;
     margin-bottom: 20px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -79,18 +72,13 @@ p {
 a {
     color: grey;
     text-decoration: none;
-
-
 }
 
 a:hover {
-
     color: white;
-
 }
 
 a:visited {
-
     /* this is to hover and make words grey */
 }
 
@@ -98,39 +86,37 @@ a:active {
     color:
 }
 
-
+/*BEN: original code doesn't work becuaser 'containers' isn't a class*/
+/*
 main containers .wrapper {
     margin-left: 300px;
     margin-right: 300px;
     Top: 1000px;
 }
-
-
+*/
+/*BEN: basically move all the header styles to the hero content class*/
 header {
-
-    background-image: url(../images/churchill-house-4-edited.png);
-    background-size: cover;
-    height: 2000px;
-
+    position: fixed;
+    width: 98%;
+    padding: 10px;
 }
 
 nav {
-    width: 3000px;
-
+    /*    width: 3000px;*/
+    float: right;
 }
 
 nav ul {
     list-style: none;
-    padding-top: 100px;
-    margin-left: 800px;
-    width: 2500px;
+    /*    BEN: rather than using the margin, float the nav instead */
+    /*    margin-left: 800px;*/
+    /*    width: 2500px;*/
 }
 
 nav ul li {
     display: inline;
-    margin-left: 600px;
-
-
+    /*    margin-left: 600px;
+    */
 }
 
 nav ul li a {
@@ -140,8 +126,7 @@ nav ul li a {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 40px;
-
+    font-size: 3em;
 }
 
 nav ul li a:hover {
@@ -149,40 +134,126 @@ nav ul li a:hover {
     color: white;
 }
 
+.indexhead {
+    background-image: url(../images/churchill-house-4-edited.png);
+    background-size: cover;
+
+}
 
 .hero {
-    margin-left: 200px;
-    margin-right: 200px;
+    /*    background-image: url(../images/churchill-house-4-edited.png);*/
+    background-size: cover;
+    /*    BEN: instead of setting the height in pixels, try using 'vh'= vertical height (covered in module 4)*/
+    height: 100vh;
+    /*    BEN: there is some weird spacing appearing, not sure where from but the following line will hide it:*/
+    margin-top: -10px;
+}
+
+.hero h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    /*    BEN: changing the font so it scales better*/
+    font-size: 10em;
+    padding-top: 70vh;
+    /*    position: fixed;*/
+    /*    font-size: 280px;*/
+    /*    BEN: This is a text element, so whilst you could put a background image in, you should try and avoid - put it in a div instead*/
+    /*    background-image: url(../images/churchill-house-4-edited.png);*/
+    /*    background-size: cover;*/
+    /*
+    padding-top: 580px;
+    padding-bottom: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+*/
+    /*    width: 3100px;*/
+}
+
+main {
+    /*    BEN: shouldn't need to set a height on the content*/
+    /*    min-height: 800px;*/
+    /*    width: 2600px;*/
+    /*
+    margin-left: 400px;
+    margin-right: 400px;
+*/
+}
+
+section {}
+
+
+
+/*BEN: code for columns on home page*/
+/*this holds the 2 columns and adds a little space at the bottom*/
+.columns {
+    margin-bottom: 20px;
+}
+
+/*can reuse the same class for both columns*/
+.column {
+    width: 48%;
+    float: left;
+    height: 300px;
+    line-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*add some spaceing to the left so they don't hit each other*/
+.column.left {
+    margin-right: 2%;
+}
+
+.column.right {}
+
+/*actually set the background image*/
+.column.history {
+    background-image: url(../images/History%20Event.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+.boyd {
+    background-image: url(../images/robin%20smoking.jpg);
     background-size: cover;
     height: 1000px;
 
 }
 
-main {
-    min-height: 800px;
-    width: 2600px;
-    margin-left: 400px;
-    margin-right: 400px;
+/*heading style within the box*/
+.column h3 {
+    border: none;
+    padding-bottom: 0;
+    text-align: center;
+}
 
+.column a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
-
     background-color: dimgrey;
-    padding: 70px;
+    padding-top: 70px;
+    /*    padding: 70px;*/
     background-size: cover;
     min-height: 300px;
-    height: 200px;
-    width: 3220px;
-    font-size: 30px;
-    margin-top: 100%;
+    /*    BEN: you set the min height, so height not needed*/
+    /*    height: 200px;*/
+    /*    width: 3220px;*/
+    /*    BEN: don't set the font here or it will be huge, do it in the paragraph instead - see below*/
+    /*    font-size: 30px;*/
+    /*    margin-top: 100%;*/
+    clear: both;
+}
 
-
-
+footer p {
+    font-size: 3em;
 }
 
 .lefting {
-    width: 800px;
+    max-width: 800px;
     height: 1000px;
     float: right;
     /*    border: 1px solid grey;*/
@@ -191,18 +262,24 @@ footer {
     margin-right: 200px;
     text-align: center;
     font-size: 100px;
-
 }
 
 .lefting h4 {
-
     text-align: left;
 }
 
 .lefting p {
-
     font-size: 30px;
     text-align: left;
     padding: 20px;
     line-height: normal;
+}
+
+/*BEN: read more here: https://css-tricks.com/all-about-floats/*/
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
 }

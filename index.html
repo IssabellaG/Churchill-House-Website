@@ -9,60 +9,70 @@
 </head>
 
 <body>
-
     <header>
-
-        <h1><a href="index.html"><img src="assets/images/boyd-logo.png" width=665px height=334px alt="Robin Boyd 100 Centenary Logo"></a></h1>
-
+        <h1><a href="index.html"><img src="assets/images/boyd-logo.png" alt="Robin Boyd 100 Centenary Logo"></a></h1>
         <nav>
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="robin-boyd.html">Robin Boyd</a></li>
             </ul>
-
-            <h2><a href="about.html">Churchill House</a></h2>
-
         </nav>
-
     </header>
 
-    <!--        <div class="hero">-->
+    <div class="indexhead">
+
+        <div class="hero">
+            <!--             BEN: yep, you want the hero content div instead of the image being in the header, this will allow you to stick the header at the top of the page whilst the content can scroll belo wit. -->
+            <h2><a href="about.html">Churchill House</a></h2>
+        </div>
+
+    </div>
     <div class="wrapper">
 
+        <main>
 
-        <div class="main">
-            <main>
+            <a href="assets/images/churchill-house-4-edited.png" src="Churchill House Sketch"></a>
+            <p>Churchill House is a good example of the Late Twentieth Century Brutalist style, (1960-), displaying several key features as follows: - Large areas of blank wall, especially the west wall of the south wing.- Off-form concrete, such as the west wall of the south wing and the spandrels to the south and east wings. In addition, it displays a number of the other features of this style including: sloping structural fins, precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House is one of several Canberra examples of this style, and one of only two which display a restrained form reflecting, perhaps, a more conservative approach to the style because of the intended office use. The architecture of this building may contribute to the education of designers in their understanding of Late Twentieth-Century Architectural Styles. Churchill House has interest for its association with the prominent architect, Robin Boyd. The building was his last major commission.
+            </p>
+        </main>
 
-                <a href="assets/images/churchill-house-4-edited.png" width=1366px height=760px src="Churchill House Sketch"></a>
-
-
-                <p>Churchill House is a good example of the Late Twentieth Century Brutalist style, (1960-), displaying several key features as follows: - Large areas of blank wall, especially the west wall of the south wing.- Off-form concrete, such as the west wall of the south wing and the spandrels to the south and east wings. In addition, it displays a number of the other features of this style including: sloping structural fins, precast concrete non-loadbearing wall panels, precast fins for sun protection, and vertical slit windows. Churchill House is one of several Canberra examples of this style, and one of only two which display a restrained form reflecting, perhaps, a more conservative approach to the style because of the intended office use. The architecture of this building may contribute to the education of designers in their understanding of Late Twentieth-Century Architectural Styles. Churchill House has interest for its association with the prominent architect, Robin Boyd. The building was his last major commission.
-                </p>
-            </main>
-            <div class="hero">
-                <nav>
-                    <a href="history.html"><img src="assets/images/History%20Event.jpg" width=1800px height=1100px alt="Churchill House Event"> </a>
-                    <div class="lefting">
-                        <a href="robin-boyd.html"><img src="assets/images/robin%20smoking.jpg" width=900px height=1100px alt="Robin Boyd Portrait"></a>
-                    </div>
-                </nav>
-
-                <p>
-
-                </p>
-
+        <!--BEN: you should only have one <nav> tag on the page - for the primary navigation, use a div instead-->
+        <!--
+        <nav>
+            <a href="history.html"><img src="assets/images/History%20Event.jpg" width=1800px height=1100px alt="Churchill House Event"> </a>
+            <div class="lefting">
+                <a href="robin-boyd.html"><img src="assets/images/robin%20smoking.jpg" width=900px height=1100px alt="Robin Boyd Portrait"></a>
             </div>
-            <footer>
+        </nav>
+-->
 
-
-                This website was produced by students in the Faculty of Arts &amp; Design, University of Canberra, 2019.
-
-                <a href="https://robinboyd.org.au">Robin Boyd Foundation</a>
-
-            </footer>
-        </div>
+        <section>
+            <div class="columns clearfix">
+                <div class="left column history">
+                    <h3><a href="history.html">History</a></h3>
+                </div>
+                <div class="right column boyd">
+                    <h3><a href="robin-boyd.html">Robin Boyd</a></h3>
+                </div>
+                <!--
+            <div>
+                <img src="assets/images/History%20Event.jpg" alt="Churchill House Event"> </a>
+                <div class="lefting">
+                    <img src="assets/images/robin%20smoking.jpg" alt="Robin Boyd Portrait"></a>
+                </div>
+            </div>
+-->
+            </div>
+        </section>
     </div>
+    <!--close wrapper-->
+    <footer>
+        <div class="wrapper">
+            <p>This website was produced by students in the Faculty of Arts &amp; Design, University of Canberra, 2019.
+                <a href="https://robinboyd.org.au">Robin Boyd Foundation</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
