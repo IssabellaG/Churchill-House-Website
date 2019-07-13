@@ -48,22 +48,23 @@ h3 {
     font-size: 50px;
     font-weight: bold;
     border-bottom: 1px solid white;
-    padding-bottom: 100px;
-    padding top: 100px;
+    padding-bottom: 10px;
+    padding top: 10px;
     letter-spacing: 1px;
     color: #000000;
 }
 
 h4 {
     font-size: 100px;
+
 }
 
 p {
     font-size: 3.5em;
     line-height: 1.2em;
     margin-bottom: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -147,14 +148,15 @@ nav ul li a:hover {
     height: 100vh;
     /*    BEN: there is some weird spacing appearing, not sure where from but the following line will hide it:*/
     margin-top: -10px;
+
 }
 
 .hero h2 {
     text-align: center;
     letter-spacing: 10px;
     /*    BEN: changing the font so it scales better*/
-    font-size: 10em;
-    padding-top: 70vh;
+    font-size: 30em;
+    padding-top: 35vh;
     /*    position: fixed;*/
     /*    font-size: 280px;*/
     /*    BEN: This is a text element, so whilst you could put a background image in, you should try and avoid - put it in a div instead*/
@@ -183,29 +185,29 @@ main {
 
 section {}
 
+.timelineright {}
 
+.timelineright h3 {
+    float: right;
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
 
-.timeline {
+.timelineright h4 {
     float: right;
 }
 
-.timeline h3 {
-    float: right;
-}
-
-.timeline h4 {
-    float: right;
-}
-
-
-.timeline p {
-    float: right;
-    text-align: right;
+.timelineright p {
     width: 50%;
+    float: right;
+    text-align: left;
+    background-size: 50%;
+    margin-left: 50%;
+
 }
 
-.timeline img {
-    float: right;
+.timelineleft img {
+    float: left;
 }
 
 /*BEN: code for columns on home page*/
@@ -245,61 +247,8 @@ section {}
 
 }
 
-/*.ltimeline {*/
-/*    float: left;*/
-/*}*/
 
-/*
-.ltimeline img {
-    float: left;
-    margin-top: 200px;
-}
-*/
 
-/*
-.ltimeline p {
-    float: left;
-}
-*/
-
-/*
-.ltimeline h4 {
-    float: left;
-        not in use yet
-}
-*/
-
-/*
-.rtimeline {
-    float: right;
-}
-*/
-
-/*
-.rtimeline h3 {
-    float: right;
-}
-*/
-
-/*
-.rtimeline h4 {
-    float: right;
-}
-*/
-
-/*
-.rtimeline img {
-    float: right;
-        not in use yet
-
-}
-*/
-
-/*
-.rtimeline p {
-    float: right;
-}
-*/
 
 /*heading style within the box*/
 .column h3 {
