@@ -208,6 +208,10 @@ section {}
 
 }
 
+.timelineright img {
+    float: right;
+}
+
 .timelineleft {
     width: 50%;
 
@@ -220,6 +224,17 @@ section {}
     width: 90%;
     margin-top: 300px;
 }
+
+.timelinecentre {
+    padding: 100px;
+}
+
+.timelinecentre p {
+    text-align: left;
+}
+
+
+
 
 /*BEN: code for columns on home page*/
 /*this holds the 2 columns and adds a little space at the bottom*/
