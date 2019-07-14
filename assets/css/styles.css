@@ -204,12 +204,14 @@ section {}
 .timelineright p {
     float: right;
     text-align: left;
-    padding-top: 80px;
+    padding-top: 30px;
 
 }
 
 .timelineright img {
     float: right;
+    width: 90%;
+    margin-top: 150px;
 }
 
 .timelineleft {
@@ -219,14 +221,15 @@ section {}
 
 .timelineleft img {
 
-    padding-bottom: 100px;
-    padding-top: 80px;
+    padding-bottom: 150px;
+    padding-top: 100px;
     width: 90%;
-    margin-top: 300px;
+    margin-top: 400px;
 }
 
 .timelinecentre {
-    padding: 100px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 .timelinecentre p {
