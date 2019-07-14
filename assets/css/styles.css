@@ -188,6 +188,29 @@ main {
 
 section {}
 
+.content {
+    padding-top: 400px;
+}
+
+.content img {
+    width: 40%;
+    padding: 20px;
+}
+
+.contentleft {}
+
+.contentleft img {}
+
+.contentright {
+    width: 50%;
+    float: right;
+}
+
+.contentright img {
+    width: 80%;
+    padding: 20px;
+}
+
 .timelineright {
     width: 50%;
     float: right;
@@ -287,18 +310,18 @@ section {}
     height: 500px;
 }
 */
-shelf {
+.aboutshelf {
     height: 100vh;
 
 
 }
 
-shelf ul {
+.aboutshelf ul {
     list-style: none;
 }
 
 
-shelf ul li {
+.aboutshelf ul li {
     display: inline;
 }
 
