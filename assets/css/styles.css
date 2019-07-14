@@ -100,6 +100,7 @@ header {
     position: fixed;
     width: 98%;
     padding: 10px;
+
 }
 
 nav {
@@ -236,8 +237,44 @@ section {}
     text-align: left;
 }
 
+.aboutleft {
+    width: 50%;
+    float: left;
+    margin-top: 400px;
 
+}
 
+.aboutleft h3 {}
+
+.aboutleft p {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 50px;
+}
+
+.aboutright {
+    width: 50%;
+    float: right;
+    margin-top: 300px;
+}
+
+.aboutright img {
+    width: 100%;
+    padding: 50px;
+}
+
+.aboutcentre {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.aboutcentre img {
+    padding: 100px;
+
+}
 
 /*BEN: code for columns on home page*/
 /*this holds the 2 columns and adds a little space at the bottom*/
