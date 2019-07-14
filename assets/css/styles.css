@@ -40,7 +40,8 @@ h1 {
 
 /*set the size of the logo image */
 h1 img {
-    max-width: 200px;
+    max-width: 400px;
+
 }
 
 /*BEN: h2 was here, I've moved it down to the hero area*/
@@ -106,6 +107,7 @@ header {
 nav {
     /*    width: 3000px;*/
     float: right;
+    margin-top: 40px;
 }
 
 nav ul {
@@ -124,11 +126,11 @@ nav ul li {
 nav ul li a {
     color: grey;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 20px 35px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 nav ul li a:hover {
@@ -263,17 +265,41 @@ section {}
     padding: 50px;
 }
 
-.aboutcentre {
-    height: 50%;
-    display: flex;
+/*
+.shelf {
+    height: 100vh;
+    background-size: cover;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 1600px;
+    align-items: center;
+*/
+
+
+/*
+}
+
+.shelf img {
+    align-self: center;
+
+    padding: 50px;
+    width: 900px;
+    height: 500px;
+}
+*/
+shelf {
+    height: 100vh;
+
 
 }
 
-.aboutcentre img {
-    padding: 100px;
+shelf ul {
+    list-style: none;
+}
 
+
+shelf ul li {
+    display: inline;
 }
 
 /*BEN: code for columns on home page*/
