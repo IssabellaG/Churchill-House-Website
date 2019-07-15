@@ -288,42 +288,23 @@ section {}
     padding: 50px;
 }
 
-/*
-.shelf {
-    height: 100vh;
-    background-size: cover;
-    flex-direction: row;
+
+.aboutcentre {
+    display: inline-flex;
     justify-content: space-evenly;
-    padding-top: 1600px;
-    align-items: center;
-*/
 
-
-/*
-}
-
-.shelf img {
-    align-self: center;
-
-    padding: 50px;
-    width: 900px;
-    height: 500px;
-}
-*/
-.aboutshelf {
-    height: 100vh;
-
+    padding: 25px 35px;
+    background-color: dimgrey;
+    padding-top: 70px;
+    /*    padding: 70px;*/
+    background-size: cover;
+    min-height: 300px;
+    width: 100%;
 
 }
 
-.aboutshelf ul {
-    list-style: none;
-}
+.aboutcentre img {}
 
-
-.aboutshelf ul li {
-    display: inline;
-}
 
 /*BEN: code for columns on home page*/
 /*this holds the 2 columns and adds a little space at the bottom*/
