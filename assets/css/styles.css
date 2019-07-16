@@ -86,7 +86,7 @@ a:visited {
 }
 
 a:active {
-    color:
+    color: white;
 }
 
 /*BEN: original code doesn't work becuaser 'containers' isn't a class*/
