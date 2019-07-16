@@ -194,13 +194,21 @@ section {}
 }
 
 .content img {
+    /*
     width: 40%;
     padding: 20px;
+*/
 }
 
-.contentleft {}
+.contentleft {
+    width: 50%;
+    float: left;
 
-.contentleft img {}
+}
+
+.contentleft img {
+    float: left;
+}
 
 .contentright {
     width: 50%;
