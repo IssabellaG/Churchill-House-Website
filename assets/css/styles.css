@@ -1,21 +1,17 @@
+/*Font import*/
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Telex&display=swap');
 
+/*Body and wrapper*/
 body {
     background-color: rosybrown;
     /*    background-color: #473C39;*/
     color: #ffffff;
-    /*make sure you set family and size on body*/
     font-family: 'Telex', sans-serif;
     font-size: 10px;
 }
 
 .wrapper {
-    /*    BEN: if you were to set the width here you'd want it to be relatively small i.e. less than 1000px. */
-    /*    width: 3000px;*/
-    width: 70%;
-    /*    BEN: never set the height of a wrapper - it will grow with the content*/
-    /*    height: 500px;*/
-    /*    These 2 lines center the wrapper in the middle: */
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,21 +27,8 @@ h6 {
     margin: 10px;
 }
 
-h1 {
-    /*    BEN: rather than fixing the logo, do it on the header element instead*/
-    /*    position: fixed;*/
-    margin-top: 0;
-    display: inline;
-    float: left;
-}
-
-/*set the size of the logo image */
-h1 img {
-    max-width: 400px;
-
-}
-
-/*BEN: h2 was here, I've moved it down to the hero area*/
+/*H1 does not exist*/
+/*H2 is in hero*/
 h3 {
     font-size: 50px;
     font-weight: bold;
@@ -58,9 +41,9 @@ h3 {
 
 h4 {
     font-size: 100px;
-
 }
 
+/*H5 and H6 do not exist*/
 p {
     font-size: 3.5em;
     line-height: 1.2em;
@@ -70,8 +53,7 @@ p {
     text-align: center;
 }
 
-/* anchor styles */
-/* these are for links you havent created yet */
+/*Text decoration for links*/
 a {
     color: grey;
     text-decoration: none;
@@ -81,47 +63,35 @@ a:hover {
     color: white;
 }
 
-a:visited {
-    /* this is to hover and make words grey */
-}
+a:visited {}
 
 a:active {
     color: white;
 }
 
-/*BEN: original code doesn't work becuaser 'containers' isn't a class*/
-/*
-main containers .wrapper {
-    margin-left: 300px;
-    margin-right: 300px;
-    Top: 1000px;
-}
-*/
-/*BEN: basically move all the header styles to the hero content class*/
+/*Header content*/
 header {
-    position: fixed;
     width: 98%;
     padding: 10px;
+    background: none;
+}
 
+header img {
+    width: 15%;
 }
 
 nav {
-    /*    width: 3000px;*/
     float: right;
     margin-top: 40px;
 }
 
 nav ul {
     list-style: none;
-    /*    BEN: rather than using the margin, float the nav instead */
-    /*    margin-left: 800px;*/
-    /*    width: 2500px;*/
+    float: right;
 }
 
 nav ul li {
     display: inline;
-    /*    margin-left: 600px;
-    */
 }
 
 nav ul li a {
@@ -139,60 +109,35 @@ nav ul li a:hover {
     color: white;
 }
 
+/*INDEX STYLES START*/
+/*Index background image and title*/
 .indexhead {
     background-image: url(../images/churchill-house-4-edited.png);
     background-size: cover;
-
+    height: 100vh;
 }
 
 .hero {
-    /*    background-image: url(../images/churchill-house-4-edited.png);*/
-    background-size: cover;
-    /*    BEN: instead of setting the height in pixels, try using 'vh'= vertical height (covered in module 4)*/
     height: 100vh;
-    /*    BEN: there is some weird spacing appearing, not sure where from but the following line will hide it:*/
-    margin-top: -10px;
-
 }
 
-.hero h2 {
+.indexhead h2 {
     text-align: center;
     letter-spacing: 10px;
-    /*    BEN: changing the font so it scales better*/
     font-size: 30em;
-    padding-top: 35vh;
-    /*    position: fixed;*/
-    /*    font-size: 280px;*/
-    /*    BEN: This is a text element, so whilst you could put a background image in, you should try and avoid - put it in a div instead*/
-    /*    background-image: url(../images/churchill-house-4-edited.png);*/
-    /*    background-size: cover;*/
-    /*
-    padding-top: 580px;
-    padding-bottom: 800px;
-    padding-left: 100px;
-    padding-right: 100px;
-*/
-    /*    width: 3100px;*/
+    padding-top: 22vh;
 }
 
 main {
-
-
-    /*    BEN: shouldn't need to set a height on the content*/
-    /*    min-height: 800px;*/
-    /*    width: 2600px;*/
-    /*
-    margin-left: 400px;
-    margin-right: 400px;
-*/
+    padding: 100px;
 }
 
 section {}
 
+/*INDEX STYLES END*/
 .content {
     padding-top: 400px;
 }
-
 
 .contentleft {
     width: 50%;
@@ -411,13 +356,18 @@ section {}
 }
 
 
-
-
 /*heading style within the box*/
 .column h3 {
     border: none;
     padding-bottom: 0;
     text-align: center;
+    font-size: 10vh;
+
+}
+
+.column h3 a:hover {
+    text-decoration: none;
+    color: white;
 }
 
 .column a {
@@ -443,29 +393,6 @@ footer {
 
 footer p {
     font-size: 3em;
-}
-
-.lefting {
-    max-width: 800px;
-    height: 1000px;
-    float: right;
-    /*    border: 1px solid grey;*/
-    /*    padding 30px;*/
-    /*    background-color: none;*/
-    margin-right: 200px;
-    text-align: center;
-    font-size: 100px;
-}
-
-.lefting h4 {
-    text-align: left;
-}
-
-.lefting p {
-    font-size: 30px;
-    text-align: left;
-    padding: 20px;
-    line-height: normal;
 }
 
 /*BEN: read more here: https://css-tricks.com/all-about-floats/*/
