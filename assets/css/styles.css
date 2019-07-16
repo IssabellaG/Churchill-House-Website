@@ -128,15 +128,30 @@ nav ul li a:hover {
     padding-top: 22vh;
 }
 
+/*Index executive summary and image navigation containers*/
 main {
     padding: 100px;
 }
 
-section {}
+section {
+    padding-bottom: 200px;
+}
 
 /*INDEX STYLES END*/
+/*HISTORY STYLES START*/
+/*sections to divide text and images*/
 .content {
-    padding-top: 400px;
+    padding-top: 150px;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 70px;
+}
+
+.content p {
+    padding: 100px;
 }
 
 .contentleft {
@@ -145,9 +160,13 @@ section {}
 
 }
 
+.contentleft p {
+    text-align: left;
+}
+
 .contentleft img {
     float: left;
-    width: 90%;
+    width: 80%;
     padding: 50px;
 }
 
@@ -159,8 +178,9 @@ section {}
 }
 
 .contentright img {
-    width: 90%;
+    width: 80%;
     padding: 50px;
+
 }
 
 .contentmid {
@@ -190,10 +210,11 @@ section {}
 }
 
 .contentrightbottom img {
-    width: 90%;
+    width: 80%;
     padding: 50px;
 }
 
+/*HISTORY STYLES END*/
 .timelineright {
     width: 50%;
     float: right;
@@ -355,14 +376,13 @@ section {}
 
 }
 
-
-/*heading style within the box*/
+/*INDEX STYLES CONTINUE*/
+/*Homepage image navigation*/
 .column h3 {
     border: none;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     text-align: center;
     font-size: 10vh;
-
 }
 
 .column h3 a:hover {
@@ -376,23 +396,18 @@ section {}
     height: 100%;
 }
 
+/*INDEX STYLES END*/
 footer {
     background-color: dimgrey;
-    padding-top: 70px;
-    /*    padding: 70px;*/
+    padding: 160px;
     background-size: cover;
-    min-height: 300px;
-    /*    BEN: you set the min height, so height not needed*/
-    /*    height: 200px;*/
-    /*    width: 3220px;*/
-    /*    BEN: don't set the font here or it will be huge, do it in the paragraph instead - see below*/
-    /*    font-size: 30px;*/
-    /*    margin-top: 100%;*/
     clear: both;
 }
 
 footer p {
     font-size: 3em;
+    display: inline-flex;
+    text-align: center;
 }
 
 /*BEN: read more here: https://css-tricks.com/all-about-floats/*/
