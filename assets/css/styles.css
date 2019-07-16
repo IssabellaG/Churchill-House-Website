@@ -273,9 +273,11 @@ section {}
 .aboutleft h3 {}
 
 .aboutleft p {
+    /*
     padding-top: 200px;
     padding-bottom: 200px;
     font-size: 50px;
+*/
 }
 
 .aboutright {
@@ -298,10 +300,9 @@ section {}
 
 
     /*    background-color: dimgrey;*/
-    /*    background-image: url(../images/churchill-house-23.jpg);*/
     background-image: url(../images/concrete.jpg);
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-size: cover;
     /*    min-height: 300px;*/
     /*    height: 50%;*/
@@ -320,10 +321,9 @@ section {}
 
 
     /*    background-color: dimgrey;*/
-    background-image: url(../images/concrete%20edit.png);
-    /*    background-image: url(../images/churchill-house-16%20copy.jpg);*/
-    padding-top: 400px;
-    padding-bottom: 400px;
+    background-image: url(../images/concrete.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-size: cover;
     /*    min-height: 300px;*/
     /*    height: 50%;*/
