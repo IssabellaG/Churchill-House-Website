@@ -3,8 +3,7 @@
 
 /*Body and wrapper*/
 body {
-    background-color: rosybrown;
-    /*    background-color: #473C39;*/
+    background-color: #554A40;
     color: #ffffff;
     font-family: 'Telex', sans-serif;
     font-size: 10px;
@@ -186,13 +185,10 @@ section {}
 .contentmid {
     display: inline-flex;
     justify-content: space-evenly;
-    /*    background-color: dimgrey;*/
     background-image: url(../images/concrete.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
     background-size: cover;
-    /*    min-height: 300px;*/
-    /*    height: 50%;*/
     width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -335,7 +331,7 @@ contentmid h3 {
 
 .aboutright h3 {}
 
-/*display of different Churchill House angles*/
+/*Display of different Churchill House angles*/
 .aboutcentre {
     display: inline-flex;
     justify-content: space-evenly;
@@ -438,8 +434,9 @@ contentmid h3 {
 }
 
 /*INDEX STYLES END*/
+/*FOOTER STYLES*/
 footer {
-    background-color: dimgrey;
+    background-color: #4F4D4B;
     padding: 160px;
     background-size: cover;
     clear: both;
