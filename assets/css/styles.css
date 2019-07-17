@@ -133,9 +133,7 @@ main {
     padding: 100px;
 }
 
-section {
-    padding-bottom: 200px;
-}
+section {}
 
 /*INDEX STYLES END*/
 /*HISTORY STYLES START*/
@@ -292,6 +290,7 @@ contentmid h3 {
 }
 
 /*ROBIN BOYD STYLES END*/
+/*ABOUT PAGE STYLES START*/
 .aboutleft {
     width: 50%;
     float: left;
@@ -299,26 +298,28 @@ contentmid h3 {
 
 }
 
-.aboutleft h3 {}
+.aboutleft h3 {
+    margin-bottom: 70px;
+}
 
 .aboutleft p {
     /*
     padding-top: 200px;
     padding-bottom: 200px;
-    font-size: 50px;
 */
+
 }
 
 .aboutright {
     width: 50%;
     float: right;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .aboutright img {
     width: 100%;
     padding: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 .aboutright h3 {}
@@ -364,14 +365,13 @@ contentmid h3 {
     flex-basis: auto;
 }
 
-
-/*BEN: code for columns on home page*/
-/*this holds the 2 columns and adds a little space at the bottom*/
+/*ABOUT PAGE STYLES END*/
+/*INDEX STYLES CONTINUE*/
+/*Homepage image navigation*/
 .columns {
     margin-bottom: 20px;
 }
 
-/*can reuse the same class for both columns*/
 .column {
     width: 48%;
     float: left;
@@ -381,14 +381,12 @@ contentmid h3 {
     background-size: cover;
 }
 
-/*add some spaceing to the left so they don't hit each other*/
 .column.left {
     margin-right: 2%;
 }
 
 .column.right {}
 
-/*actually set the background image*/
 .column.history {
     background-image: url(../images/History%20Event.jpg);
     background-size: cover;
@@ -402,8 +400,6 @@ contentmid h3 {
 
 }
 
-/*INDEX STYLES CONTINUE*/
-/*Homepage image navigation*/
 .column h3 {
     border: none;
     padding-bottom: 100px;
@@ -438,7 +434,7 @@ footer p {
     text-align: center;
 }
 
-/*BEN: read more here: https://css-tricks.com/all-about-floats/*/
+/*Styles to enable floats*/
 .clearfix:after {
     content: ".";
     visibility: hidden;
