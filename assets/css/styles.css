@@ -30,10 +30,10 @@ h6 {
 /*H1 does not exist*/
 /*H2 is in hero*/
 h3 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
     border-bottom: 1px solid white;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
     padding top: 10px;
     letter-spacing: 1px;
     color: #000000;
@@ -140,11 +140,10 @@ section {
 /*INDEX STYLES END*/
 /*HISTORY STYLES START*/
 /*sections to divide text and images*/
-.content {
-    padding-top: 150px;
-}
+.content {}
 
 .content h3 {
+    padding-top: 150px;
     text-align: center;
     font-size: 80px;
     padding-bottom: 70px;
@@ -157,30 +156,32 @@ section {
 .contentleft {
     width: 50%;
     float: left;
-
 }
 
 .contentleft p {
     text-align: left;
+    padding: 45px;
 }
 
 .contentleft img {
     float: left;
     width: 80%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right;
+    50px;
+    padding-bottom: 150px;
 }
 
 .contentright {
     width: 50%;
     float: right;
     display: inline-flex;
-
 }
 
 .contentright img {
     width: 80%;
     padding: 50px;
-
 }
 
 .contentmid {
@@ -194,19 +195,31 @@ section {
     /*    min-height: 300px;*/
     /*    height: 50%;*/
     width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
+}
+
+contentmid h3 {
+    display: none;
 }
 
 .contentmid img {
     flex-basis: auto;
+    width: 700px;
+    height: 600px;
 }
 
 
 .contentrightbottom {
     width: 50%;
     float: right;
+    margin-bottom: 150px;
+}
 
-
+.contentrightbottom p {
+    text-align: left;
+    padding: 40px;
 }
 
 .contentrightbottom img {
@@ -215,6 +228,7 @@ section {
 }
 
 /*HISTORY STYLES END*/
+/*ROBIN BOYD STYLES START*/
 .timelineright {
     width: 50%;
     float: right;
@@ -222,18 +236,21 @@ section {
 
 .timelineright h3 {
     float: right;
-    margin-top: 300px;
+    margin-top: 200px;
     padding-bottom: 70px;
     font-size: 80px;
+    margin-bottom: 100px;
 }
 
 .timelineright h4 {
     float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .timelineright p {
     float: right;
-    text-align: left;
+    text-align: end;
     padding-top: 30px;
 
 }
@@ -241,12 +258,19 @@ section {
 .timelineright img {
     float: right;
     width: 90%;
-    margin-top: 150px;
 }
 
 .timelineleft {
     width: 50%;
+}
 
+.timelineleft p {
+    text-align: left;
+}
+
+.timelineleft h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .timelineleft img {
@@ -254,7 +278,7 @@ section {
     padding-bottom: 150px;
     padding-top: 100px;
     width: 90%;
-    margin-top: 400px;
+    margin-top: 250px;
 }
 
 .timelinecentre {
@@ -263,9 +287,11 @@ section {
 }
 
 .timelinecentre p {
-    text-align: left;
+    text-align: center;
+    padding: 20px;
 }
 
+/*ROBIN BOYD STYLES END*/
 .aboutleft {
     width: 50%;
     float: left;
@@ -366,13 +392,13 @@ section {
 .column.history {
     background-image: url(../images/History%20Event.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 1300px;
 }
 
 .boyd {
     background-image: url(../images/robin%20smoking.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 1300px;
 
 }
 
@@ -381,6 +407,7 @@ section {
 .column h3 {
     border: none;
     padding-bottom: 100px;
+    padding-top: 200px;
     text-align: center;
     font-size: 10vh;
 }
@@ -402,6 +429,7 @@ footer {
     padding: 160px;
     background-size: cover;
     clear: both;
+    margin-top: 150px;
 }
 
 footer p {
